@@ -545,11 +545,11 @@ ReSRC.it недавно вышел из беты, так что если у ко
 [29]: http://responsiveimages.org/
 [30]: http://twitter.com/respimg
 
-[tree1]: http://media.smashingmagazine.com/wp-content/uploads/2013/05/picnic_without_art_direction_mini.jpg
-[tree2]: http://media.smashingmagazine.com/wp-content/uploads/2013/05/picnic_with_art_direction_mini.jpg
-[picturefill]: http://media.smashingmagazine.com/wp-content/uploads/2013/05/solution_picturefill_mini.jpg
-[hisrc]: http://media.smashingmagazine.com/wp-content/uploads/2013/05/solution_hisrc_mini.jpg
-[adaptiveimages]: http://media.smashingmagazine.com/wp-content/uploads/2013/05/solution_adaptiveimages_mini.jpg
-[sencha]: http://media.smashingmagazine.com/wp-content/uploads/2013/05/solution_senchaio_mini.jpg
-[mobify]: http://media.smashingmagazine.com/wp-content/uploads/2013/05/solution_mobifyjs_mini.jpg
-[resrc]: http://media.smashingmagazine.com/wp-content/uploads/2013/05/solution_resrcit_mini.jpg
+[tree1]: img/picnic_without_art_direction_mini.jpg
+[tree2]: img/picnic_with_art_direction_mini.jpg
+[picturefill]: img/solution_picturefill_mini.jpg
+[hisrc]: img/solution_hisrc_mini.jpg
+[adaptiveimages]: img/solution_adaptiveimages_mini.jpg
+[sencha]: img/solution_senchaio_mini.jpg
+[mobify]: img/solution_mobifyjs_mini.jpg
+[resrc]: img/solution_resrcit_mini.jpg
