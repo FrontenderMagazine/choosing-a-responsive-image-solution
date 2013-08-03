@@ -20,7 +20,7 @@ Styling foreground images to adjust to the width of their container is very
 easy. In your style sheet, perhaps in your normalize or reset style sheet, you’d
 add the following code:
 
-```img {     max-width: 100%; }```
+    img {     max-width: 100%; }
 
 In most cases, that tiny style rule will do the trick! Once it’s in place, if
 the container around the image becomes narrower than the width of the image,
@@ -38,7 +38,7 @@ wouldn’t be a problem. So, you create a 300 × 300-pixel version of the logo a
 plug it in — and now it’s huge! Your first inclination is probably to try
 something like this in CSS:
 
-```img.sitelogo {     max-width: 150px; }```
+    img.sitelogo {     max-width: 150px; }
 
 Unfortunately, this doesn’t work as expected — the logo image will now refuse to
 scale nicely with the other images on the page. To limit the maximum width of an
@@ -47,7 +47,7 @@ container*, rather than of the image itself! Let’s say you’ve wrapped your l
 image in a module with a class of `branding`. Here is the style that will do the
 trick:
 
-```.branding {     max-width: 150px; }```
+    .branding {     max-width: 150px; }
 
 So, now we have scalable responsive images in our website’s fluid layout.
 Mission accomplished. Time to go find out what this strange “outdoors” place has
@@ -204,7 +204,7 @@ you, BlackBerry).
 
 Here’s an example of a typical Picturefill setup:
 
-```<span data-picture data-alt="Descriptive alt tag">
+    <span data-picture data-alt="Descriptive alt tag">
     <span data-src="images/myimage_sm.jpg"></span>
     <span data-src="images/myimage_lg.jpg" data-media="(min-width: 600px)"></span>
 
@@ -216,7 +216,7 @@ Here’s an example of a typical Picturefill setup:
     <noscript>
         <img src="images/myimage_sm.jpg" alt="Descriptive alt tag" />
     </noscript>
-    </span>```
+    </span>
 
 That’s all you need to display adaptive images at page-loading time using
 Picturefill. Drop in the script, configure the markup, and everything just
@@ -247,14 +247,14 @@ process. Then, add some special markup to your image tag: `data-1x` and
 `data-2x` attributes, pointing to the medium- and high-resolution versions,
 respectively. For example:
 
-```<img src="http://placekitten.com/200/100"
-data-1x="http://placekitten.com/400/200"
-data-2x="http://placekitten.com/800/400" class="hisrc" />```
+    <img src="http://placekitten.com/200/100"
+    data-1x="http://placekitten.com/400/200"
+    data-2x="http://placekitten.com/800/400" class="hisrc" />
 
 Then, after the DOM has loaded, just call the function on the image class that
 you’re using, like so:
 
-```$(document).ready(function(){   $(".hisrc").hisrc(); });```
+    $(document).ready(function(){   $(".hisrc").hisrc(); });
 
 In practice, the browser will first load the image source — i.e. the mobile
 version of the image. Then, the script checks to see whether the visitor is
@@ -331,14 +331,14 @@ needed.
 
 Let’s say you have a big image:
 
-```<img src="http://www.your-domain.com/path/to/image.jpg" alt="My large image"
-/>```
+    <img src="http://www.your-domain.com/path/to/image.jpg" alt="My large image"
+/>
 
 At its simplest, you’d just prefix the src attribute with http://src.sencha.io/,
 like so:
 
-```<img src="http://src.sencha.io/http://www.your-domain.com/path/to/image.jpg"
-alt="My large image" />```
+    <img src="http://src.sencha.io/http://www.your-domain.com/path/to/image.jpg"
+alt="My large image" />
 
 By default, Sencha.io will resize your image to fit the width of the device’s
 screen, using the user-agent string for detection. Phones might be sent a
@@ -398,19 +398,19 @@ Second, you’ll need to insert their Javascript file on your page (this is the
 simple JS code; they offer an asynchronous embed method as well to improve
 performance):
 
-```<script src="//use.resrc.it"></script>```
+    <script src="//use.resrc.it"></script>
 
 Then, suppose you have an image like this:
 
-```<img src="http://path/to/image.jpg" alt="My large image" />```
+    <img src="http://path/to/image.jpg" alt="My large image" />
 
 You would prefix the image source’s URL with a path to ReSRC.it’s servers, and
 add a CSS class of “resrc” to the image. They currently have two servers, one
 for paid accounts and one for trial accounts — we’ll use the trial one for our
 example:
 
-```<img src="http://trial.resrc.it/http://www.your-domain.com/path/to/image.jpg"
-alt="My large image" class="resrc" />```
+    <img src="http://trial.resrc.it/http://www.your-domain.com/path/to/image.jpg"
+alt="My large image" class="resrc" />
 
 ReSRC.it allows you to add parameters to the requested URL to perform operations
 on the image, such as rotating, cropping and flipping. This allows for quite a
@@ -420,9 +420,7 @@ parameters are processed in order from left to right and can be strung together.
 Here’s an example of an image that’s being flipped horizontally, resized to
 300-pixels wide, with the resulting image optimized to an 80%-quality JPEG:
 
-```<img
-src="http://trial.resrc.it/r=h/s=w300/o=80/http://www.your-site.co/image.jpg"
-alt="My large image" class="resrc" />```
+    <img src="http://trial.resrc.it/r=h/s=w300/o=80/http://www.your-site.co/image.jpg" alt="My large image" class="resrc" />
 
 ReSRC.it is recently out of beta, so if anyone using the service has tips or
 advice (pro or con), we’d love to hear more about it in the comments.
