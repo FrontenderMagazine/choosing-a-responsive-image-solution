@@ -402,7 +402,7 @@ alt="My large image" />
 скачивать его. Можно даже сделать запасной режим с одним из других решений
 (например, Picturefill) — на случай, если что-нибудь упадет.
 
-[Mobify][mobify]
+![Mobify][mobify]
 
 Так как эта техника обходит встроенные в браузер технологии предзагрузки, у нее
 неоднозначная репутация в кругах специалистов, занимающихся вопросами
@@ -427,7 +427,7 @@ Adaptive Web.”][21]
 пропускной способности канала — и для этого ему не нужно определять браузер по
 user-agent и хранить данные в куки.
 
-[ReSRC][resrc]
+![ReSRC][resrc]
 
 Чтобы начать, сперва нужно зарегистрировать trial-аккаунт на ReSrc.it.
 
@@ -546,11 +546,11 @@ ReSRC.it недавно вышел из беты, так что если у ко
 [29]: http://responsiveimages.org/
 [30]: http://twitter.com/respimg
 
-[tree1]: http://media.smashingmagazine.com/wp-content/uploads/2013/05/picnic_without_art_direction_mini.jpg
-[tree2]: http://media.smashingmagazine.com/wp-content/uploads/2013/05/picnic_with_art_direction_mini.jpg
-[picturefill]: http://media.smashingmagazine.com/wp-content/uploads/2013/05/solution_picturefill_mini.jpg
-[hisrc]: http://media.smashingmagazine.com/wp-content/uploads/2013/05/solution_hisrc_mini.jpg
-[adaptiveimages]: http://media.smashingmagazine.com/wp-content/uploads/2013/05/solution_adaptiveimages_mini.jpg
-[sencha]: http://media.smashingmagazine.com/wp-content/uploads/2013/05/solution_senchaio_mini.jpg
-[mobify]: http://media.smashingmagazine.com/wp-content/uploads/2013/05/solution_mobifyjs_mini.jpg
-[resrc]: http://media.smashingmagazine.com/wp-content/uploads/2013/05/solution_resrcit_mini.jpg
+[tree1]: https://www.smashingmagazine.com/wp-content/uploads/2013/05/picnic_without_art_direction_mini.jpg
+[tree2]: https://www.smashingmagazine.com/wp-content/uploads/2013/05/picnic_with_art_direction_mini.jpg
+[picturefill]: https://www.smashingmagazine.com/wp-content/uploads/2013/05/solution_picturefill_mini.jpg
+[hisrc]: https://www.smashingmagazine.com/wp-content/uploads/2013/05/solution_hisrc_mini.jpg
+[adaptiveimages]: https://www.smashingmagazine.com/wp-content/uploads/2013/05/solution_adaptiveimages_mini.jpg
+[sencha]: https://www.smashingmagazine.com/wp-content/uploads/2013/05/solution_senchaio_mini.jpg
+[mobify]: https://www.smashingmagazine.com/wp-content/uploads/2013/05/solution_mobifyjs_mini.jpg
+[resrc]: https://www.smashingmagazine.com/wp-content/uploads/2013/05/solution_resrcit_mini.jpg
